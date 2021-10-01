@@ -18,7 +18,7 @@ public class PipeLoader
     }
     protected static Movement loadPipe(int index, int pipesCount) throws IOException
     {
-        File file = new File("C:\\Users\\lucivjan\\projects\\MyPlayground\\src\\main\\resources\\pipe"+index);
+        File file = new File("src\\main\\resources\\pipe"+index);
         BufferedReader br = new BufferedReader(new FileReader(file));
         
         List<String> lines = new ArrayList();
